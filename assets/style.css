@@ -1,0 +1,13 @@
+:root{--ink:#222;--soft:#666;--card:#fff;--border:#e6e8ef;--bg:#fafbff;--accent:#3a6cd6}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);
+font-family:system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;line-height:1.65}
+main{max-width:980px;margin:18px auto;padding:0 16px}
+nav{display:flex;gap:10px;margin:6px 0 16px;flex-wrap:wrap}
+a.tab{display:inline-block;padding:8px 14px;border:1px solid var(--border);
+border-radius:999px;background:#fff;text-decoration:none;color:#111}
+a.tab:hover{border-color:#cfd6ff}
+h1{font-size:1.8rem;margin:.3em 0 .6em}
+.hero p{margin:.3em 0 1em}
+footer{color:#777;text-align:center;margin:26px 0 20px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;margin:12px 0}
+small.muted{color:#777}
