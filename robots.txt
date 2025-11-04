@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kokorobi-project.vercel.app/sitemap.xml
