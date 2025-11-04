@@ -10,6 +10,11 @@
 <link rel="canonical" href="https://kokorobi-project.vercel.app/">
 <link rel="stylesheet" href="/assets/style.css">
 </head><body>
+  <!-- 共通ナビを読み込んで表示（active: project） -->
+<script src="/nav.js"></script>
+<div id="kb-nav-wrap"></div>
+<script>document.getElementById('kb-nav-wrap').innerHTML = kokorobiNav('project');</script>
+
 <header class="site">
   <a class="brand" href="/">🌿 こころびプロジェクト</a>
   <nav class="nav">
